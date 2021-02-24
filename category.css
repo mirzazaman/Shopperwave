@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Responsiveness */
+
+@media (max-width:728px){
+html{
+font-size: 12px;
+}
+}
+@media (max-width:560px){
+html{
+font-size: 10px;
+}
+}
+@media (max-width:455px){
+html{
+font-size: 8px;
+}
+}
+@media (max-width: 370px){
+html{
+font-size: 6px;
+}
+}
+@media (max-width: 280px){
+html{
+font-size: 5px;
+}
+}
