@@ -64,6 +64,15 @@ html{
     position: absolute;
     display: inline-block;
 }
+.menuDiv:hover{
+    transition: .5s;
+    border-radius: 1rem;
+    background-color: rgb(255, 203, 203);
+
+}
+.menuDiv:active{
+    background-color: rgb(255, 70, 70);
+}
 .loginDiv{
     margin-top: .3rem;
     margin-right: 1rem;
@@ -84,8 +93,22 @@ html{
     font-size: 1.5rem;
     color: black;
 }
+.menuBar{
+    width: 10rem;
+    height: 5rem;
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    right: 0%;
+}
+.button{
+    margin: 2rem;
+    padding: 1rem;
+}
 a{
     text-decoration: none;
+    color: black;
 }
 
 
