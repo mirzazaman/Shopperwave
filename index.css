@@ -7,6 +7,10 @@ html{
     font-size: 16px;
     text-transform: capitalize;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .bg{
     width: 100%;
     height: 100vh;
@@ -14,6 +18,9 @@ html{
     background-size: 100% 100%;
     overflow: auto;
 }
+
+/*      Header */
+
 .header{
     width: 100%;
     height: 5rem;
@@ -26,78 +33,66 @@ html{
 .header:hover{
     opacity: 1;
 }
-.title{
-    color: inherit;
-    font-size: 2rem;
-}
-.titleDiv{
-    display: inline-flex;
-    position: absolute;
-    top: 1.2rem;
-    left: 6.5rem;
-    padding: .5rem .5rem .5rem .5rem;
+
+/*      Logo & Title */
+
+.loti{
+    display: inline-flex  ;
 }
 .logo{
     width: 3rem;
 }
 .logoDiv{
     z-index: 1;
-    display: inline-block;
+    display: inline-flex;
     position: relative;
-    top: .5rem;
+    top: .6rem;
     left: 3rem;
-    padding: .4rem .4rem .4rem .5rem;
 }
 .logoDiv:hover{
     transition: 1s;
     background-color: white;
 }
-.loti{
-    display: inline-block  ;
+
+.title{
+    color: inherit;
+    font-size: 2rem;
 }
+.titleDiv{
+    display: inline-flex;
+    position: relative;
+    top: 1.2rem;
+    left: 3.5rem;
+}
+
+/*      Menu & Login */
+
 .meln{
     float: right;
-    display: inline-block;
-    margin: .8rem 7rem 0rem 0rem;
+    display: flex;
+    margin: 1rem 4rem 0rem 0rem;
 }
 .menuDiv{
-    position: absolute;
-    display: inline-block;
-}
-.menuDiv:hover .menuBar{
-    display: block;
-    /* transition: .5s; */
-    border-radius: 1rem;
-
-}
-.loginDiv{
-    margin-top: .3rem;
-    margin-right: 1rem;
-    position: relative;
-    display: inline-block;
-}
-.loginDiv:hover{
-    transition: 1s;
-    background-color: rgb(255, 70, 70);
-    border-radius: 1rem;
+    display: inline-flex;
 }
 .menu{
     width: 3rem;
     padding: .8rem .5rem;
 }
-.login{
-    padding: .5rem;
-    font-size: 1.5rem;
-    color: black;
+.menuDiv:hover .menuBar{
+    display: block ;
+}
+.menuDiv:active{
+    background-color: rgb(255, 70, 70);
 }
 .menuBar{
     width: 15rem;
-    height:13 rem;
+    height: 13rem;
     display: none;
     background-color: white;
-    position: absolute;
-    top: 3rem;
-    left: -9rem;
+    position:absolute;
+    top: 5rem;
+    right: 1rem;
     z-index: 1;
 }
 .button{
@@ -110,10 +105,24 @@ html{
     border-radius: 1rem;
     background-color: rgb(255, 70, 70);
 }
-a{
-    text-decoration: none;
+.loginDiv{
+    margin:.5rem 1rem;
+    display: inline-flex;
+}
+.loginDiv:hover{
+    transition: 1s;
+    background-color: rgb(255, 70, 70);
+    border-radius: 1rem;
+}
+
+.login{
+    padding: .5rem;
+    font-size: 1.5rem;
     color: black;
 }
+
+/*      Search Phase */
+
 .searchMain{
     width: 100%;
     height: 5rem;
@@ -160,9 +169,8 @@ a{
     display: inline-block;
 }
 .uploadDiv{
-    position: absolute;
-    display: inline-block;
-    margin:0rem 2rem;
+    position: relative;
+    display: inline-flex;
     padding: 1rem;
 }
 .uploadDiv:hover{
@@ -172,6 +180,18 @@ a{
 }
 .upload{
     font-size: 1.5rem
+}
+
+/*      Items Phase */
+
+.itemsPhase{
+    width: 100%;
+    height: 28.45rem;
+    background-color: white;
+    background-size: 100% 100%;
+    border-bottom: .2rem ridge;
+    opacity: 0.9;
+    overflow: hidden;
 }
 
 
