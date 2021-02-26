@@ -5,47 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
     <link rel="icon" href="./icons/logo.png">
-    <style>
-        *{
-            margin: 0%;
-            padding: 0%;
-        }
-        html{
-            font-family: sans-serif;
-            font-size: 16px;
-        }
-
-/* Responsiveness */
-
-@media (max-width:728px){
-html{
-font-size: 12px;
-}
-}
-@media (max-width:560px){
-html{
-font-size: 10px;
-}
-}
-@media (max-width:455px){
-html{
-font-size: 8px;
-}
-}
-@media (max-width: 370px){
-html{
-font-size: 6px;
-}
-}
-@media (max-width: 280px){
-html{
-font-size: 5px;
-}
-}
-    </style>
 </head>
-<body>
-    
+<body> 
+
+    <div class="bg">
+
+<!--        Header Items -->
+
+            <div class="header">
+
+                <!--  Logo, Title -->
+                <div class="loti">
+                <div class="logoDiv"> <img class="logo" src="./icons/logo.png" alt="Logo"> </div>
+                <div class="titleDiv"><h2 class="title">Shopperwave</h2></div>
+                </div>
+
+                <!-- Menu, Login -->
+                <div class="meln">
+                    <div class="loginDiv"><a href="./login.html"><h2 class="login">Login</h2></a></div>
+                    
+                    <!-- Menu Button -->
+                    <div class="menuDiv"><img class="menu" src="./icons/menu.png" a lt="menu">
+                    <div class="menuBar">
+                            <a href="./index.html"><h2 class="button">Home</h2></a>
+                            <a href="./category.html"><h2 class="button">Category</h2></a>
+                            <a href="./login.html"><h2 class="button">Login</h2></a>
+                        </div></div>
+                </div>
+            </div>
+<!--        Search Bar -->
+        <div class="searchMain">
+            <div class="searchDiv">
+                <!-- <form> -->
+                    <input type="text" placeholder="Search Here" class="search">
+                    <input type="button" class="searchIcon">
+                <!-- </form> -->
+                <div class="orDiv"><h3 class="or">or</h3></div>
+                <div class="uploadDiv"><a href="#"><h3 class="upload">upload</h3> </a> </div>
+            </div>
+        </div>
+        <div class="itemsPhase">
+            <div>
+                
+            </div>
+        </div>
+    </div>
 </body>
 </html>
