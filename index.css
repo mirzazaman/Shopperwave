@@ -13,7 +13,7 @@ a{
 }
 .bg{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(255, 70, 70);
     background-size: 100% 100%;
     overflow: auto;
@@ -140,7 +140,7 @@ a{
 .searchDiv{
     width: 30rem;
     height: 3rem;
-    margin: 1rem auto;
+    margin: .5rem auto;
 }
 .search{
     border: ridge;
@@ -149,7 +149,7 @@ a{
     width: 15rem;
     height: 2rem;
     margin: 0rem 0rem .5rem .5rem;
-    padding: .5rem;
+    padding: .5rem .5rem;
     font-size: 1.5rem;
     text-transform: capitalize;
 }
@@ -184,41 +184,76 @@ a{
 
 /*      Items Phase */
 
+.playImg{
+    width: 10rem;
+    margin: auto;
+}
+.itemName{
+    margin: 1rem;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
 .itemsPhase{
     width: 100%;
-    height: 28.45rem;
+    height: 100%;
     background-color: white;
+    opacity: .9;
     background-size: 100% 100%;
     border-bottom: .2rem ridge;
-    opacity: 0.9;
-    overflow: hidden;
+    overflow: auto;
 }
-
+.itemsPhase:hover .item{
+    opacity: .9;
+}
+.itemsMain{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: ridge;
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+    list-style: none;
+    justify-content: center;
+}
+.item{
+    border: ridge;
+    margin: 1rem 1.2rem;
+    padding: 1rem;
+    background-color: white;
+    overflow: auto;
+}
 
 
                     /* Responsiveness */
 
 @media (max-width:728px){
     html{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 @media (max-width:560px){
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 @media (max-width:455px){
     html{
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 @media (max-width: 370px){
     html{
-        font-size: 6px;
+        font-size: 8px;
     }
 }
 @media (max-width: 280px){
+    html{
+        font-size: 6px;
+    }
+}
+@media (max-width: 223px){
     html{
         font-size: 5px;
     }
