@@ -13,7 +13,7 @@ a{
 }
 .bg{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(255, 70, 70);
     background-size: 100% 100%;
     overflow: auto;
@@ -125,7 +125,7 @@ a{
 
 .searchMain{
     width: 100%;
-    height: 5rem;
+    height: 10rem;
     background-color: white;
     background-size: 100%;
     border-bottom: .2rem ridge;
@@ -140,7 +140,7 @@ a{
 .searchDiv{
     width: 30rem;
     height: 3rem;
-    margin: 1rem auto;
+    margin: 3rem auto;
 }
 .search{
     border: ridge;
@@ -149,7 +149,7 @@ a{
     width: 15rem;
     height: 2rem;
     margin: 0rem 0rem .5rem .5rem;
-    padding: .5rem;
+    padding: .5rem .5rem;
     font-size: 1.5rem;
     text-transform: capitalize;
 }
@@ -182,17 +182,6 @@ a{
     font-size: 1.5rem
 }
 
-/*      Items Phase */
-
-.itemsPhase{
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    background-size: 100% 100%;
-    border-bottom: .2rem ridge;
-    opacity: 0.9;
-    overflow: auto;
-}
 
 
 

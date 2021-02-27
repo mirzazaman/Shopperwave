@@ -13,7 +13,7 @@ a{
 }
 .bg{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(255, 70, 70);
     background-size: 100% 100%;
     overflow: auto;
@@ -125,7 +125,7 @@ a{
 
 .searchMain{
     width: 100%;
-    height: 5rem;
+    height: 10rem;
     background-color: white;
     background-size: 100%;
     border-bottom: .2rem ridge;
@@ -140,7 +140,7 @@ a{
 .searchDiv{
     width: 30rem;
     height: 3rem;
-    margin: 1rem auto;
+    margin: 3rem auto;
 }
 .search{
     border: ridge;
@@ -149,7 +149,7 @@ a{
     width: 15rem;
     height: 2rem;
     margin: 0rem 0rem .5rem .5rem;
-    padding: .5rem;
+    padding: .5rem .5rem;
     font-size: 1.5rem;
     text-transform: capitalize;
 }
@@ -181,19 +181,44 @@ a{
 .upload{
     font-size: 1.5rem
 }
+/*      Category Phase  */
 
-/*      Items Phase */
-
-.itemsPhase{
+.categoryImg{   
+    width: 6rem;
+    margin: 1rem;
+}
+.categoryName{
+    color: black;
+    font-size: .9rem;
+    text-align: center;
+}
+.categoryPhase{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: white;
+    opacity: .9;
     background-size: 100% 100%;
     border-bottom: .2rem ridge;
-    opacity: 0.9;
-    overflow: auto;
+    /* overflow: auto; */
 }
-
+.categoryMain{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: ridge;
+    width: 95%;
+    margin: auto;
+    /* overflow: auto; */
+    list-style: none;
+    justify-content: center;
+}
+.category{
+    border: ridge;
+    margin: 1rem 1.2rem;
+    padding: 1rem;
+    background-color: white;
+    /* overflow: hidden; */
+}
 
 
                     /* Responsiveness */
